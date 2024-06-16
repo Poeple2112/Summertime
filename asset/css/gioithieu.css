@@ -1,0 +1,167 @@
+body {
+  font-family: "Roboto";
+  color: white;
+  background-color: rgba(53, 52, 11, 0.8);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.top_container {
+  width: 100%;
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+}
+a {
+  
+  font-size: larger;
+  margin-top: 20px;
+  padding: 0px 30px;
+  color: whitesmoke;
+  text-decoration: none;
+
+ 
+}
+a:hover{
+  background: linear-gradient(
+    to right,
+    green,yellow,green,yellow,green,yellow
+  );
+  background-size: 500%;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  animation: gradient 4s infinite alternate-reverse;
+
+ }
+ .bottom_left  a{
+  display: inline-block;
+  margin-top: 150px;
+ }
+h2 {
+  font-size: x-large;
+  margin-left: 950px;
+  font-weight: 800;
+  background: linear-gradient(
+    to right,
+    crimson,
+    orange,
+    yellow,
+    burlywood,
+    yellow,
+    orange,
+    crimson
+  );
+  background-size: 250%;
+  background-clip: text;
+  color: transparent;
+  animation: gradient 2s infinite alternate-reverse;
+}
+  /* Hiệu ứng font chữ  */
+@keyframes gradient {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+
+.mid_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+  
+}
+.option a {
+  display: inline-block;
+  width: 300px;
+  text-decoration: none;
+  color: burlywood;
+ 
+}
+.list:hover{
+  background: rgba(255, 255, 255, 0.2);
+}
+.list {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding-top: 20px;
+
+  width: inherit;
+}
+span {
+  color: burlywood;
+  font-weight: 700;
+  font-size: x-large;
+  text-decoration: overline;
+  margin-left: 70px;
+}
+.left_container {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 400px;
+  height: 100%;
+  padding-top: 40px;
+  margin-top: 39px;
+  position: fixed;
+  z-index: 2;
+}
+.right_container {
+  box-sizing: border-box;
+  width: calc(100% - 380px);
+  height: 100%;
+  margin-left: 400px;
+  margin-top: 40px;
+ 
+  z-index: 1;
+  
+  color: burlywood;
+  line-height: 30px;
+}
+.right_container label {
+  font-size: x-large;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-left: 30px;
+}
+
+img {
+  width: 500px;
+  height: 350px;
+}
+.img_css {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+}
+.bottom_left {
+  width: 400px;
+  height: 100%;
+  text-align: center;
+}
+.bottom_left span {
+  display: block;
+  color: gray;
+  text-decoration: underline;
+  margin: 0;
+}
+p{
+  margin-left: 50px;
+  text-align: justify;
+  width: 900px;
+}
+h3{
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 700;  
+  font-size: larger;
+  margin-left: 45px;
+}

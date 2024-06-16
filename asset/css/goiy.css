@@ -1,0 +1,88 @@
+body {
+    font-family: "Roboto";
+    color: white;
+    background-color: rgba(53, 52, 11, 0.8);
+    background-attachment: fixed;
+    background-size: cover;
+}
+a {
+    font-size: larger;
+    padding: 0px 30px;
+    padding-top: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    
+  }
+  a:hover{
+    background: linear-gradient(
+      to right,
+      green,yellow,green,yellow,green,yellow
+    );
+    background-size: 500%;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+    animation: gradient 4s infinite alternate-reverse;
+  
+   }
+   h2 {
+    font-size: x-large;
+    margin-left: 950px;
+    font-weight: 800;
+    background: linear-gradient(
+      to right,
+      crimson,
+      orange,
+      yellow,
+      burlywood,
+      yellow,
+      orange,
+      crimson
+    );
+    background-size: 250%;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 2s infinite alternate-reverse;
+  }
+    /* Hiệu ứng font chữ  */
+  @keyframes gradient {
+    from {
+      background-position: 0%;
+    }
+    to {
+      background-position: 100%;
+    }
+  }
+  .top_container {
+    width: 100%;
+    height: fit-content;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, blue   ,  cyan  );
+    background-size: 200%;
+    animation: gradient 2s infinite alternate-reverse;
+    text-align: center;
+    align-content: center;
+   
+  }
+  @keyframes gradient {
+    from {
+      background-position: 0%;
+    }
+    to {
+      background-position: 100%;
+    }
+  }
+  h1 {
+    display: inline;
+    font-size: xx-large;
+  }
